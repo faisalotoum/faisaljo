@@ -98,5 +98,5 @@ var index = new URLSearchParams(window.location.search).get('index')
     image10.src = `images/${index}/10.png`
 
 function goHome() {
-    location.href=``;
+    location.href=`index.html`;
 }
