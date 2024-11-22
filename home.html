@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Faisaljo</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="Logo F.svg">
+    </head>
+    <body>
+        <div class="cursor-dot"></div>
+
+        <div class="color"></div>
+        <header>
+            <img src="Logo F.svg" alt="logo" width="41" onclick="goHome()" class="toplogo">
+            <nav>
+                <ul class="navlinks">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </nav> 
+            <a href="#contact"><button>Contact me</button></a>
+        </header>
+        <div class="pagebody">
+            <h1 class="headtitle reveal">Elevate your brand with a timeless minimal logo.</h1>
+            <p class="graphicdesigner reveal">Graphic & Motion Designer</p>
+            <a class="reveal" href="#services"><button class="learnmore reveal">Learn more</button></a>
+            <div class="scroller delayedreveal">
+                <ul class="taglist scroller__inner">
+                    <li><img src="logoscroller/1.svg" alt="logo" width="41"></li>
+                    <li><img src="logoscroller/2.svg" style="width: 57px;" alt="logo" width="41"></li>
+                    <li><img src="logoscroller/3.svg" style="width: 65px;" alt="logo" width="41"></li>
+                    <li><img src="logoscroller/4.svg" style="width: 100px;" alt="logo" width="41"></li>
+                    <li><img src="logoscroller/5.svg" style="width: 85px;" alt="logo" width="41"></li>
+                    <li><img src="logoscroller/6.svg" style="width: 70px;" alt="logo" width="41"></li>
+                    <li><img src="logoscroller/7.svg" style="width: 50px;" alt="logo" width="41"></li>
+                </ul>
+            </div>
+
+            <div class="reveal">
+                <h2>
+                    Crafting minimal logos that embody the essence of your brand/channel. 
+                </h2>
+                <p class="firstimpressions">
+                    First impressions matter. That's why my mission is to create clean, enduring designs that elevate your brand/channel with simplicity and elegance. Captivate your audience with your timeless presence.
+                </p>
+            </div>  
+
+            <div id="services" style="margin-top:50px;"></div>
+            <div class="reveal">
+                <h2 style="margin-top: 150px;">
+                    Services
+                </h2>
+                <p class="firstimpressions servicestext">
+                    I am able to provide you with services in one of the following fields.
+                </p>
+            </div>
+
+            <div class="row">
+                <div><h4>01</h4><h3>Company</h3></div>
+                <div><h4>02</h4><h3>Content Creator / Streamer</h3></div>
+            </div>
+            <div class="row">
+                <div><h4>03</h4><h3>Online Store / Page</h3></div>
+                <div><h4>04</h4><h3>Animation / 3D Film</h3></div>
+            </div>
+
+            <div style="margin-top: 50px;" id="work"></div>
+            <div class="reveal">
+                <h2 style="margin-top: 150px;">
+                    Work
+                </h2>
+                <p class="firstimpressions servicestext">
+                    My most prominent works.
+                </p>
+            </div>
+
+            <div class="row bestworks">
+                <div class="card"><img src="bestworks/1.svg" style="--width: 155px; z-index: 500;" alt="logo"></div>
+                <div class="card"><img src="bestworks/2.svg" style="--width: 140px; z-index: 500;" alt="logo"></div>
+            </div>
+            <div class="row bestworks">
+                <div class="card"><img src="bestworks/3.svg" style="--width: 160px; z-index: 500;" alt="logo"></div>
+                <div class="card"><img src="bestworks/4.svg" style="--width: 85px; z-index: 500;" alt="logo"></div>
+            </div>
+
+            <div class="reveal">
+                <h2 style="margin-top: 190px; font-weight: 700;">
+                    Client Feedback
+                </h2>
+                <p class="firstimpressions servicestext clientopinionstext">
+                    Hear what clients have to say about my work.
+                </p>
+            </div>
+
+            <div class="scroller">
+                <ul class="newtaglist scroller__inner opinionbarscroller">
+                    <li class="opinionbar"><div class="opinion"><h3>التصميم مميز ومختلف عن أي تصميم وخاصة الثري دي</h3><div class="logo-name"><img src="opinionscroller/1.png" alt="logo" style="width:34px;"><h5>4s_00</h5></div></div></li>
+                    <li class="opinionbar"><div class="opinion"><h3>Our logo now truly stands out in the market.</h3><div class="logo-name"><img src="opinionscroller/2.png" alt="logo" style="width:34px;"><h5>Souless36</h5></div></div></li>
+                </ul>
+            </div>
+
+            <h2 style="margin-top: 145px; font-weight: bold;">
+                Contact
+            </h2>
+            <h6>
+                Note: For quicker replies, please share your social media username.
+            </h6>
+
+            <form class="bigform" id="contact" action="https://formsubmit.co/faisalotoumjo@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Email for Faisaljo">
+                <div class="name-email">
+                    <div class="yourname"><p class="label">Name</p><input type="text" name="Name" placeholder="Your name" required></div>
+                    <div class="youremail"><p class="label">Email</p><input type="text" name="Name" placeholder="example@info.com" required></div>
+                </div>
+                <div class="message-submit">
+                    <p class="label">Message</p>
+                    <textarea class="yourmessage" type="text" name="Name" placeholder="Your message..." required></textarea>
+                    <button class="submitbutton" type="submit"><h4>Submit</h4></button>
+                </div>
+                <p class="lastnote">We respond within 24 hours.</p>
+            </form>
+
+            <footer>
+                <div class="all-logos">
+                    <div class="footerlogo"><img src="Logo F.svg" alt="logo" style="width: 41px;"></div>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/f_ljo"><img src="bottombar/Instagram.svg" alt="instagram" style="width: 20px;"></a>
+                        <a href="https://x.com/f_ljor"><img src="bottombar/X Twitter.svg" alt="x" style="width: 16px;"></a>
+                        <a href="https://www.behance.net/f_ljo"><img src="bottombar/Be.svg" alt="behance" style="width: 24px;"></a>
+                    </div>
+                </div>
+
+                <div class="footerlinksdiv">
+                    <nav>
+                        <ul class="footerlinks">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#services">Services</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
